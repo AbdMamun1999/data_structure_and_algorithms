@@ -25,7 +25,7 @@ int main() {
         while (l <= r)
         {
             mid = (l+r)/2;
-            if(x >= a[mid]){
+            if( a[mid] <= x){
                 l = mid + 1;
                 idx = mid;
             }else {
